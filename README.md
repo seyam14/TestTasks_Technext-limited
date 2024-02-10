@@ -1,8 +1,14 @@
-# React + Vite
+## [ live link](https://gleaming-pony-b99a61.netlify.app)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##  Project Features
 
-Currently, two official plugins are available:
+# User  information show 
+# Filter by name,email and company
+# Search field 
+# User Add form
+# Responsive for mobile ,tablet either
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ ## Technology:
+-  **Front-end:** React
+-  **Frameworks:** Tailwind, 
+-  **Tools:**  Github, Netlify
