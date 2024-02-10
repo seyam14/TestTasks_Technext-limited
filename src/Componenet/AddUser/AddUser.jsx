@@ -56,7 +56,7 @@ setOpen(false)
 
   return (
     <div>
-      <button className='text-blue-500 text-2xl border rounded-xl p-2' onClick={onOpenModal}>Add User</button>
+      <button className='text-blue-500 border rounded' onClick={onOpenModal}>Add User</button>
       <Modal styles={modalStyle}  open={open} onClose={onCloseModal} center>
       <form onSubmit={handleAddUser}>
         <div className="mb-4">
@@ -87,7 +87,7 @@ setOpen(false)
             <input type="text" id="City" name="address.City" className="mt-1 border focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
           </div>
           <div>
-            <label htmlFor="postalCode" className="block text-sm font-medium text-gray-700">postalCode</label>
+            <label htmlFor="postalCode" className="block text-sm font-medium text-gray-700">Suite</label>
             <input type="text" id="postalCode" name="postalCode"  className="mt-1 border focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
           </div>
         </div>
