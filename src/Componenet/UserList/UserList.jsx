@@ -2,6 +2,7 @@
 import  { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import AddUser from '../AddUser/AddUser';
 
 const UserList = () => {
   const [users, setUsers] = useState([]);
@@ -46,8 +47,7 @@ const UserList = () => {
           placeholder="Search by name"
           value={searchTerm}
           onChange={e => setSearchTerm(e.target.value)}
-          className="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
-        />
+          className="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"/>
         <select
           value={sortOption}
           onChange={e => setSortOption(e.target.value)}
@@ -59,6 +59,7 @@ const UserList = () => {
           <option value="company">Company</option>
         </select>
       </div>
+      <AddUser></AddUser>
       <h1 className="text-3xl font-bold text-blue-500 mb-8">User List</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4">
         {sortedUsers.map(user => (
