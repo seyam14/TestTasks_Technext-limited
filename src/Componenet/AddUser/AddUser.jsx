@@ -56,7 +56,7 @@ setOpen(false)
 
   return (
     <div>
-      <button className='text-blue-500 border rounded' onClick={onOpenModal}>Add User</button>
+      <button className='text-blue-500 border rounded p-2 ' onClick={onOpenModal}>Add User</button>
       <Modal styles={modalStyle}  open={open} onClose={onCloseModal} center>
       <form onSubmit={handleAddUser}>
         <div className="mb-4">
